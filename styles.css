@@ -1,0 +1,194 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.25rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+#title {
+  color: white;
+  background-color: #ff4c68;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.25rem;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+/* Download Buttons */
+
+.download-buttons {
+  font-family: 'Ubuntu', sans-serif;
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.phone-dog-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  background-color: white;
+  position: relative;
+}
+
+.features-section {
+  padding: 100px 250px;
+}
+
+.h3-features {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.p-features {
+  color: #8f8f8f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Features - Icon */
+.fas {
+  color: #ef8172;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.col-lg-4 {
+  text-align: center;
+}
+
+.fas:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  color: white;
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.card-deck {
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+@media (max-width: 1028px){
+
+  #title {
+    text-align: center;
+  }
+
+  .phone-dog-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.h3-cta {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  padding: 100px 200px 50px;
+}
+
+.cta-buttons {
+  font-family: 'Ubuntu', sans-serif;
+  margin: 5% 3% 5% 0;
+}
+
+
+/* footer section */
+
+#footer {
+  background-color: white;
+  text-align: center;
+}
+
+.social-icon {
+  padding: 20px 10px;
+}
